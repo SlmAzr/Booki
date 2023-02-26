@@ -363,6 +363,80 @@
     
 }
 
+.Card:hover {
+    transform: scale(1.02);
+}
+
+
+
+/* Activités */
+
+
+
+.wrapAct {
+    
+    display: flex;
+    flex-direction: row;
+   gap: 1.5rem;
+    
+}
+
+.Act-card {
+    box-shadow: 0 0 20px #0000002e;
+    background-color: transparent;
+ border-radius:  1rem ;
+    /* background-color: #d9d9d9; */
+}
+.Act-card h3 {
+  margin: 1.2rem;
+  padding-left: 15px;
+  
+}
+
+.Activités img{
+    border-radius: 1rem 1rem 0 0 ;
+    width: 100%;
+   height: 35rem;
+   object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2.5rem;
+    height: 100%;
+    background-color: #d9d9d9;
+}
+footer div{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
 
 
 @media screen and (max-width: 1075px) {
@@ -391,14 +465,28 @@
         flex-direction: column;
         gap: 1.5rem;
     }
-        
+        /* Activités  */
+
+
+        .wrapAct{
+            zoom: 85%;
+        }
+    
+        .Activités img{
+           
+           height: 20rem;
+           object-fit: cover;
+        }
+
 } 
 
 
-@media screen and (max-width:767px){
+
+
+
+@media screen and (max-width:768px){
     .Appart-liste{
 
-        background-color: #0065FC;
         flex-direction: column-reverse;
        
     }  .Appart-liste .Populaire-cards{
@@ -414,14 +502,27 @@
       .Card .mod-pop{
         width: 100%;
       }
+
+
+
+      .wrapAct{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+
  }
+
+
+
 
  @media screen and (min-width:1400px){
     .Appart-cards{
         gap: 1.5rem;    
     }
     .Card{
-        /* max-width: 200px; */
+        /* zoom: 80%; */
     }
         /* .Appart-cards{
             flex-direction: column;
