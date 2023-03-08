@@ -499,6 +499,8 @@
     .Appart-cards{
         padding-left: 5%;
         padding-right: 5%;
+        display: flex;
+        flex-direction: row;
     }
     .Appart-liste .Populaire-cards {
         flex-wrap: nowrap;
@@ -520,7 +522,7 @@
     }
 
     .Appart-cards {
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 1.5rem;
     }
 
@@ -563,7 +565,8 @@
      }
 
      .Appart-cards {
-         flex-direction: column;
+        display: flex;
+        flex-direction: row;
          gap: 1.5rem;
      }
 
