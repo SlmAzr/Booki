@@ -123,6 +123,8 @@
     display: none;
  }
 
+
+
  /* FILTRES */
 
  #filtres {
@@ -224,6 +226,11 @@
  }
 
 
+ /* main */
+ main a {
+    text-decoration: none;
+    color: black;
+}
 
  /* Appart */
 
@@ -282,6 +289,9 @@
         margin-bottom: 1rem;
  }
 
+ .a img{
+    width: 100%;
+ }
  .Appart-liste .Populaire-cards {
      display: flex;
      flex-direction: column;
@@ -416,7 +426,10 @@
 
  /* Activités */
 
-
+.Activités{
+    
+ 
+}
 .Act-card img{
  height: 400px;
 }
