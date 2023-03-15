@@ -508,6 +508,8 @@ footer a {
 
 /* MEDIA SCREEN */
 
+
+
 @media screen and (max-width: 1200px) {
     .Appart-liste {
         flex-direction: column;
@@ -560,6 +562,7 @@ footer a {
     }
 
 }
+/* TABLETTE */
 
 @media screen and (max-width: 1024px) {
     .Appart-liste {
@@ -608,7 +611,7 @@ footer a {
 
 
 
-
+/* MOBILE */
 
 @media screen and (max-width:768px) {
 
@@ -727,10 +730,15 @@ footer a {
 
     }
 
-
+    div.tst{
+        width: 450px;
+    }
 
 
     footer div {
         margin-left: 15px;
     }
+
+
+
 }
