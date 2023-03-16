@@ -1,4 +1,5 @@
-html,
+
+    html,
 body {
     margin: 0;
     padding: 0;
@@ -26,10 +27,7 @@ header {
     background-color: rgb(255, 255, 255);
 }
 
-/* .shape {
-     width: 85%;
-     margin: auto;
- } */
+
 
 #menu {
     width: 100%;
@@ -281,6 +279,7 @@ main a {
 }
 
 /* CARDS */
+
 .Appart-cards {
     /* display: flex;
      flex-wrap: wrap;
