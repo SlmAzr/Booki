@@ -741,3 +741,10 @@ footer a {
 
 
 }
+
+
+@media screen and (max-width:477px) {
+    html{
+        width: 475px;
+    }
+}
